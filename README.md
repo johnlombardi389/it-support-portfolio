@@ -24,11 +24,11 @@ Hardware assembly & diagnostics · Windows install/config/troubleshooting · acc
 - *Problem:* A user couldn't sign in after a password change because the new password kept getting rejected. *Fix:* Found the account was locked from repeated failed attempts against cached old credentials; unlocked it, confirmed the new password worked, and wrote up the cause so it'd take a minute to spot next time.
 - *Problem:* A user signed in to a blank "temporary" desktop with their files and settings missing. *Fix:*  Traced it to a corrupted user profile, restored it so their data returned, and documented the steps.
 - *Problem:* A user couldn't open a shared folder they were supposed to have access to. *Fix:* Checked NTFS permissions, found their group wasn't on the access list, granted the correct level, and verified they could open and save.
-- - *Problem:* A network printer showed "offline" and wouldn't print for anyone. *Fix:* Found its IP had changed, re-added it by the correct IP, updated the driver, and ran a test page to verify end to end.
-- - *Problem:* Print jobs piled up and nothing came out. *Fix:* Restarted the Print Spooler service and cleared the stuck spool files, then confirmed the queue cleared and printing resumed.
-- - *Problem:* A PC could reach sites by IP address but not by name. *Fix:* Recognized a DNS issue, flushed the cache with ipconfig /flushdns, corrected the DNS server setting, and confirmed name resolution.
-- - *Problem:* A freshly built PC powered on but showed no display. *Fix:* Reseated the RAM and GPU and confirmed the monitor was plugged into the dedicated GPU rather than the motherboard, got POST and boot; logged it as the first thing to check on "no display" builds.
-- - *Problem:* A system kept randomly shutting down under load. *Fix:* Monitored temperatures, found it thermal-throttling, reseated the cooler with fresh thermal paste, and confirmed stable temps under stress.
+- *Problem:* A network printer showed "offline" and wouldn't print for anyone. *Fix:* Found its IP had changed, re-added it by the correct IP, updated the driver, and ran a test page to verify end to end.
+- *Problem:* Print jobs piled up and nothing came out. *Fix:* Restarted the Print Spooler service and cleared the stuck spool files, then confirmed the queue cleared and printing resumed.
+- *Problem:* A PC could reach sites by IP address but not by name. *Fix:* Recognized a DNS issue, flushed the cache with ipconfig /flushdns, corrected the DNS server setting, and confirmed name resolution.
+- *Problem:* A freshly built PC powered on but showed no display. *Fix:* Reseated the RAM and GPU and confirmed the monitor was plugged into the dedicated GPU rather than the motherboard, got POST and boot; logged it as the first thing to check on "no display" builds.
+- *Problem:* A system kept randomly shutting down under load. *Fix:* Monitored temperatures, found it thermal-throttling, reseated the cooler with fresh thermal paste, and confirmed stable temps under stress.
 
 > *Why this matters:* I treat the lab like a real job: reproduce the issue, isolate the cause, test the fix, verify it, and write it down. That habit is what keeps a support queue moving.
 
