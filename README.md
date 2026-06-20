@@ -3,7 +3,7 @@
 CompTIA A+ certified IT support specialist focused on Windows troubleshooting, hardware, and end-user support with a knack for explaining technical problems in plain language. Below are hands-on projects that show how I work.
 
 **Certifications:** CompTIA A+ (2025) · Salesforce Certified Associate (2024)
-**Contact:** johnlombardi389@gmail.com · [[ LinkedIn ]](https://www.linkedin.com/in/johnlombardi389/)
+**Contact:** johnlombardi389@gmail.com · https://www.linkedin.com/in/johnlombardi389/
 
 ---
 
